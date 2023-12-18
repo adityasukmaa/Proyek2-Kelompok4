@@ -90,7 +90,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1acc8d;
+  background: rgba(1, 4, 136, 0.902);;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -104,7 +104,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2be4a2;
+  background: rgba(1, 4, 136, 0.902);;
   color: #fff;
 }
 
@@ -130,7 +130,8 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.902);
+  /* background: rgba(1, 4, 136, 0.902); */
+  background: #3AAC30;
 }
 
 #header.header-transparent {
@@ -138,7 +139,8 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  /* background: rgba(1, 4, 136, 0.9); */
+  background: #3AAC30;
   height: 60px;
 }
 
@@ -212,7 +214,7 @@ h6 {
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #1acc8d;
+  background-color: #0D75CC;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -257,7 +259,7 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #01036f;
+  color: #0D75CC;
 }
 
 .navbar .dropdown ul a i {
@@ -328,7 +330,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 3, 91, 0.9);
+  background: #3AAC30;
   transition: 0.3s;
   z-index: 999;
 }
@@ -409,7 +411,7 @@ h6 {
 .navbar-mobile .dropdown .dropdown ul a:hover,
 .navbar-mobile .dropdown .dropdown ul .active:hover,
 .navbar-mobile .dropdown .dropdown ul li:hover>a {
-  color: #1acc8d;
+  color: #0D75CC;
 }
 
 .navbar-mobile .dropdown>.dropdown-active,
@@ -429,7 +431,8 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  /* background: rgba(2, 5, 161, 0.91); */
+  background: #3AAC30;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -447,7 +450,7 @@ h6 {
 
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #1acc8d;
+  border-bottom: 4px solid #0D75CC;
 }
 
 #hero h2 {
@@ -466,11 +469,11 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #1acc8d;
+  background: #0D75CC;
 }
 
 #hero .btn-get-started:hover {
-  background: #17b57d;
+  background: #136BB4;
 }
 
 #hero .animated {
@@ -1004,7 +1007,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #010483;
+  color: #0D75CC;
 }
 
 .details .content ul {
@@ -1577,7 +1580,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: #2C6327;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1589,7 +1592,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: #2C6327;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
